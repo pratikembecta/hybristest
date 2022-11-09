@@ -308,7 +308,5 @@
     <extension dir="${HYBRIS_BIN_DIR}/custom/embecta/embectastorefront"/>
     <extension dir="${HYBRIS_BIN_DIR}/custom/embecta/embectatest"/>
     <extension name='ycommercewebservices' />
-
-
   </extensions>
 </hybrisconfig>
