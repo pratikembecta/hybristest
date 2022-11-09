@@ -37,11 +37,7 @@
         ],
         "extensions": {
             "location": "hybris/config/localextensions.xml",
-            "exclude": [
-                "azurecloudhotfolder",
-                "cloudcommons",
-                "cloudhotfolder"
-            ]
+
         }
     },
     "storefrontAddons": [
@@ -641,15 +637,14 @@
     ],
     "tests": {
         "extensions": [
-            "kiwi",
-            "tiger"
+            "embecta"
         ],
         "annotations": [
             "UnitTests",
             "IntegrationTests"
         ],
         "packages": [
-            "com.acme.*"
+            "com.embecta.*"
         ]
     }
 }
